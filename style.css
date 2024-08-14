@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: #1F2937;
+    align-items: center;
+    color: white;
+    /* flex: 0 0 auto; */
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    background-color: #1F2937;
+    align-items: center;
+    color: white;
+}
+
+.header-logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navigation-links {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 2em;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 80px;
+    flex: 0 1 auto;
+}
+
+.hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    flex: 0 1 auto;
+    gap: 20px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-wrap: wrap;
+}
+
+.hero-action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    color: #F9FAF8;
+    padding: 5px;
+    font-size: 24px;
+    border: none;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAF8;
+    padding: 50px;
+    gap: 30px;
+}
+
+.gallery-header {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    flex: 0 1 auto;
+    gap: 20px;
+}
+
+.gallery-body {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.gallery-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid #3882F6;
+}
+
+.gallery-caption {
+    font-size: 18px;
+    color: #878787;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 70px 200px;
+}
+
+figure {
+    width: 770px;
+}
+
+blockquote {
+    color: #565859;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0;
+}
+
+figcaption {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAF8;
+    padding: 70px 150px;
+}
+
+.call-to-action-banner {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px 90px;
+    gap: 5%;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+}
+
+.call-to-action-title {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: left;
+    color: #F9FAF8;
+}
+
+.call-to-action-subtitle {
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+    color: #e3e3e3;;
+}
+
+.call-to-action-button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+    flex-grow: 1;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    text-wrap: nowrap;
+    padding: 0px 20px;
+    height: 2em;
+}
